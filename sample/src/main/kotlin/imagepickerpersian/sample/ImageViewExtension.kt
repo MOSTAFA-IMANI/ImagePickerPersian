@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepickerpersian.sample
+package com.github.mostafa_imani.imagepickerpersian.sample
 
 import android.net.Uri
 import android.widget.ImageView

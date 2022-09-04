@@ -61,7 +61,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'imagepickerpersian'
 
-    publishedGroupId = 'com.github.dhaval2404'
+    publishedGroupId = 'com.github.mostafa_imani'
     libraryName = 'imagepickerpersian'
     artifact = 'imagepickerpersian'
 
@@ -75,9 +75,9 @@ ext {
     //If you are updating existing library then execute: gradlew bintrayUpload
     //In both the case don't forgot to put bintray credentials in local.properties file.
 
-    developerId = 'dhaval2404'
-    developerName = 'Dhaval Patel'
-    developerEmail = 'dhavalpatel244@gmail.com'
+    developerId = 'mostafa_imani'
+    developerName = 'mostafa imani '
+    developerEmail = 'test@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'

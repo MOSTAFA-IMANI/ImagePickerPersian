@@ -1,10 +1,10 @@
-package com.github.dhaval2404.imagepickerpersian.sample.util
+package com.github.mostafa_imani.imagepickerpersian.sample.util
 
 import android.content.Context
 import android.net.Uri
 import android.util.Log
-import com.github.dhaval2404.imagepickerpersian.util.FileUriUtils
-import com.github.dhaval2404.imagepickerpersian.util.FileUtil
+import com.github.mostafa_imani.imagepickerpersian.util.FileUriUtils
+import com.github.mostafa_imani.imagepickerpersian.util.FileUtil
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Locale

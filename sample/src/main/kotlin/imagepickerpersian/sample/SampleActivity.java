@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepickerpersian.sample;
+package com.github.mostafa_imani.imagepickerpersian.sample;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -19,12 +19,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 
-import com.github.dhaval2404.imagepickerpersian.ImagePicker;
-import com.github.dhaval2404.imagepickerpersian.constant.ImageProvider;
-import com.github.dhaval2404.imagepickerpersian.listener.DismissListener;
-import com.github.dhaval2404.imagepickerpersian.sample.util.FileUtil;
-import com.github.dhaval2404.imagepickerpersian.sample.util.IntentUtil;
-import com.github.dhaval2404.imagepickerpersian.util.IntentUtils;
+import com.github.mostafa_imani.imagepickerpersian.ImagePicker;
+import com.github.mostafa_imani.imagepickerpersian.constant.ImageProvider;
+import com.github.mostafa_imani.imagepickerpersian.listener.DismissListener;
+import com.github.mostafa_imani.imagepickerpersian.sample.util.FileUtil;
+import com.github.mostafa_imani.imagepickerpersian.sample.util.IntentUtil;
+import com.github.mostafa_imani.imagepickerpersian.util.IntentUtils;
 
 import java.io.File;
 

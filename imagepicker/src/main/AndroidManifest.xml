@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.dhaval2404.imagepickerpersian">
+    package="com.github.mostafa_imani.imagepickerpersian">
 
     <application>
 
         <activity
-            android:name="com.github.dhaval2404.imagepickerpersian.ImagePickerActivity"
+            android:name="com.github.mostafa_imani.imagepickerpersian.ImagePickerActivity"
             android:screenOrientation="unspecified"
             android:theme="@style/Theme.Transparent.ImagePicker" />
 
@@ -14,7 +14,7 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <provider
-            android:name="com.github.dhaval2404.imagepickerpersian.ImagePickerFileProvider"
+            android:name="com.github.mostafa_imani.imagepickerpersian.ImagePickerFileProvider"
             android:authorities="${applicationId}.imagepicker.provider"
             android:exported="false"
             android:grantUriPermissions="true">

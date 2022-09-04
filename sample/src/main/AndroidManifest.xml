@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.github.dhaval2404.imagepickerpersian.sample">
+    package="com.github.mostafa_imani.imagepickerpersian.sample">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.github.dhaval2404.imagepickerpersian.sample.MainActivity"
+            android:name="com.github.mostafa_imani.imagepickerpersian.sample.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -22,7 +22,7 @@
         </activity>
 
         <activity
-            android:name="com.github.dhaval2404.imagepickerpersian.sample.SampleActivity"
+            android:name="com.github.mostafa_imani.imagepickerpersian.sample.SampleActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             tools:ignore="MissingClass">
