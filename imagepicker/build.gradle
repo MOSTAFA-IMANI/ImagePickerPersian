@@ -60,7 +60,7 @@ ext {
     bintrayRepo = 'maven'
     bintrayName = 'imagepicker'
 
-    publishedGroupId = 'com.github.dhaval2404'
+    publishedGroupId = 'com.github.mostafa'
     libraryName = 'imagepicker'
     artifact = 'imagepicker'
 
