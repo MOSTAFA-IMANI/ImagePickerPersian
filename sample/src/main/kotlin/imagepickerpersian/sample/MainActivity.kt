@@ -22,6 +22,7 @@ import kotlinx.android.synthetic.main.content_camera_only.*
 import kotlinx.android.synthetic.main.content_gallery_only.*
 import kotlinx.android.synthetic.main.content_profile.*
 import java.io.File
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -83,8 +84,9 @@ class MainActivity : AppCompatActivity() {
     fun pickProfileImage(view: View) {
         ImagePicker.with(this)
             // Crop Square image
-            .galleryOnly()
+//            .galleryOnly()
             .cropSquare()
+            .setDefaultLocale(Locale("fa"))
             .setImageProviderInterceptor { imageProvider -> // Intercept ImageProvider
                 Log.d("ImagePicker", "Selected ImageProvider: " + imageProvider.name)
             }

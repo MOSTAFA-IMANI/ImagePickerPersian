@@ -23,10 +23,11 @@
             app:tint="@color/dialog_choose_icon_color" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCameraDialogTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="test2"
+            android:text="@string/title_camera"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/dialog_choose_text_color" />
 
@@ -48,10 +49,11 @@
             app:tint="@color/dialog_choose_icon_color" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvGalleryDialogTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:text="test"
+            android:text="@string/title_camera"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/dialog_choose_text_color" />
 

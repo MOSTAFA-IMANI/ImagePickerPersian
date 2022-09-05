@@ -2,13 +2,16 @@ package com.github.mostafa_imani.imagepickerpersian
 
 import android.app.Activity
 import android.content.Intent
+import android.content.res.Resources
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.github.mostafa_imani.imagepickerpersian.constant.ImageProvider
 import com.github.mostafa_imani.imagepickerpersian.listener.DismissListener
 import com.github.mostafa_imani.imagepickerpersian.listener.ResultListener
 import com.github.mostafa_imani.imagepickerpersian.util.DialogHelper
+import com.github.mostafa_imani.imagepickerpersian.util.ResourceHelper
 import java.io.File
+import java.util.*
 
 /**
  * Create Image Picker Object
@@ -80,6 +83,9 @@ open class ImagePicker {
         // Image Provider
         private var imageProvider = ImageProvider.BOTH
 
+        // resources Provider
+        private var resources: Resources? = null
+
         // Mime types restrictions for gallery. by default all mime types are valid
         private var mimeTypes: Array<String> = emptyArray()
 
@@ -122,6 +128,15 @@ open class ImagePicker {
          */
         constructor(fragment: Fragment) : this(fragment.requireActivity()) {
             this.fragment = fragment
+        }
+
+        /**
+         * Specify Locale (Fa,En,...)
+         */
+        fun setDefaultLocale(locale: Locale): Builder {
+            val inputtedResource = ResourceHelper.getLocalizedResources(context = activity, locale)
+            this.resources = inputtedResource
+            return this
         }
 
         /**
@@ -305,7 +320,8 @@ open class ImagePicker {
                             }
                         }
                     },
-                    dismissListener
+                    dismissListener,
+                    resources
                 )
             } else {
                 onResult(createIntent())
@@ -327,7 +343,8 @@ open class ImagePicker {
                         }
                     }
                 },
-                dismissListener
+                dismissListener,
+                resources
             )
         }
 
